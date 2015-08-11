@@ -461,11 +461,11 @@ label.error { display: block; }
 	width: 31px;
 	height: 31px;
 	font-size: 18px; }
-#artists .social-link a:Hover { opacity: 1; color:#fe4918; border-color:#fe4918; }
+#artists .social-link a:hover { opacity: 1; color:#fe4918; border-color:#fe4918; }
 
 /* modification of bootstrap grid to fit 5 artists instead of 4 */
 
-/*.col-md-3 {width: 20%;}*/
+/*.col-md-3 {width: 20%;}
 @media (min-width: 768px) {
 	#artists .col-sm-3 {
 		width: 33%;
@@ -476,7 +476,7 @@ label.error { display: block; }
 	#artists .col-md-3 {
 		width: 20% ;
 	}
-}
+}*/
 
 
 
