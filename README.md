@@ -1,3 +1,3 @@
 festivalcadiz
 =============
-repo for website September festival in Cádiz
+repo for website festival in Cádiz
