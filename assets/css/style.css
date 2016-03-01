@@ -120,7 +120,7 @@ hr.white { border-color: #F3AE9B; }
 #hero { background: url('../img/header-bg.jpg') center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: 670px; position: relative; overflow:hidden;}
 @supports (background-attachment: fixed;) {#hero {background-attachment: fixed;}}
 #hero .container { position: static; }
-#hero .hero-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; }
+#hero .hero-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; text-shadow: hsla(0,0%,0%,0.2) 0 0 40px;}
 #hero hr { width: 10%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #hero .hero-small span  { font-size: 27pt; display: inline-block; margin: 0 60px 15px; position: relative; top: -5px; }
 #hero .hero-big  { font-size: 70pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px;}
