@@ -125,7 +125,7 @@ p .highlight { font-weight: normal;}
 #hero hr { width: 10%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #hero .hero-small span  { font-size: 27pt; display: inline-block; margin: 0 60px 15px; position: relative; top: -5px; }
 #hero .hero-big  { font-size: 70pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px;}
-#hero .hero-normal { font-size: 22pt; margin: 15px 0px 40px 0px; text-shadow: hsla(14, 100%, 50%, 0.8) 0 0 10px;}
+#hero .hero-normal { font-size: 22pt; margin: 15px 0px 40px 0px; text-shadow: hsla(14, 100%, 50%, 0.4) 0 0 10px;}
 #hero .btn-3d { padding: 10px 27px 10px 17px; margin:0px 25px 0px 0px;}
 #hero .facebook:hover {background-color: #3a5795; border: 1px solid #133783; color: #fff;}
 
