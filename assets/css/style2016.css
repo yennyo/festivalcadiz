@@ -139,7 +139,7 @@ p .highlight { font-weight: normal;}
 	overflow: hidden;}
 
 .navigation-bar-header { background: rgba(37, 37, 37, 1); position: relative; z-index: 1; }
-.navigation-bar-header.sticky { position: fixed; top:0; display: block; width: 100%; z-index: 9; }
+.navigation-bar-header.sticky { position: fixed; top:0; display: block; width: 100%; z-index: 9; height: 90px; }
 .sticky-wrapper { margin-top: 0px; height: 90px; }
 
 .navigation { margin-left: -15px; margin-right: -15px; }
@@ -462,21 +462,6 @@ label.error { display: block; }
 	height: 31px;
 	font-size: 18px; }
 #artists .social-link a:hover { opacity: 1; color:#fe4918; border-color:#fe4918; }
-
-/* modification of bootstrap grid to fit 5 artists instead of 4 */
-
-/*.col-md-3 {width: 20%;}
-@media (min-width: 768px) {
-	#artists .col-sm-3 {
-		width: 33%;
-	}
-	.clearfix {clear: both;}
-}
-@media (min-width: 992px) {
-	#artists .col-md-3 {
-		width: 20% ;
-	}
-}*/
 
 
 
