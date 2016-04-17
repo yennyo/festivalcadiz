@@ -139,8 +139,8 @@ p .highlight { font-weight: normal;}
 	overflow: hidden;}
 
 .navigation-bar-header { background: rgba(37, 37, 37, 1); position: relative; z-index: 1; }
-.navigation-bar-header.sticky { position: fixed; top:0; display: block; width: 100%; z-index: 9; height: 90px; }
-.sticky-wrapper { margin-top: 0px; height: 90px; }
+.navigation-bar-header.sticky { position: fixed; top:0; display: block; width: 100%; z-index: 9; }
+.sticky-wrapper { margin-top: 0px; height: 60px; }
 
 .navigation { margin-left: -15px; margin-right: -15px; }
 .navigation-bar { margin: 0 auto; padding: 0; list-style: none; text-align: left; display: table; }
