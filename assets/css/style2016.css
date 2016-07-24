@@ -109,7 +109,8 @@ p .highlight { font-weight: normal;}
 
 .sub-title { font-size: 20px; }
 .overlay { background: #25201f; opacity: .8; position: absolute; z-index: 0; top:0; left: 0; bottom: 0; right: 0; }
-.overlay.color { background: #fe4918; opacity: .95;}
+.overlay.dark {background: rgb (38, 38, 38); opacity: .95;}
+.overlay.color { background: #fe4919; opacity: .95;}
 .container { z-index: 1; position: relative; }
 
 .icon-wrap { font-size: 46px; line-height: 46px; margin-bottom: -10px; }
