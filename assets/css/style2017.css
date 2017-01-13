@@ -119,7 +119,7 @@ p .highlight { font-weight: normal;}
 .article-big p { margin-bottom: 20px; }
 
 /* Content */
-#hero { background: url('../img/header-bg-2017.jpg') center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: 670px; position: relative; overflow:hidden;}
+#hero { background: url('../img/header-bg-2017.jpg') center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: 100%; position: relative; overflow:hidden;}
 @supports (background-attachment: fixed;) {#hero {background-attachment: fixed;}}
 #hero .container { position: static;}
 #hero .hero-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px;}
