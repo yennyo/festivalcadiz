@@ -209,6 +209,7 @@ p .highlight { font-weight: normal;}
 #stat .icon-wrap { font-size: 38px; line-height: 38px; margin-bottom: -10px; }
 
 #hotel { background: url('../img/barcelo.jpg') center top no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#organizers { background: url('../img/organizers.jpg') center top no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 #register .overlay { background: #fe4918; opacity: .8; }
 #register.section, #newsletter.section { padding-top: 60px; }
 
