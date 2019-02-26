@@ -122,7 +122,7 @@ p .highlight { font-weight: normal;}
 #hero { background: url('../img/header-bg-2019.jpg') center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: 100%; position: relative; overflow:hidden;}
 @supports (background-attachment: fixed;) {#hero {background-attachment: fixed;}}
 #hero .container { position: static;}
-#hero .hero-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -210px;}
+#hero .hero-content { position: absolute; top: 46%; left: 0; right: 0; margin-top: -210px;}
 #hero hr { width: 10%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #hero .hero-small span  { font-size: 27pt; display: inline-block; margin: 0 60px 15px; position: relative; top: -5px;  text-shadow: hsla(0, 0%, 0%, 0.5) 0 0 15px;}
 #hero .hero-big  { font-size: 70pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; text-shadow: hsla(0, 0%, 0%, 0.2) 0 0 15px;}
