@@ -127,6 +127,7 @@ p .highlight { font-weight: normal;}
 #hero .hero-small span  { font-size: 27pt; display: inline-block; margin: 0 60px 15px; position: relative; top: -5px;  text-shadow: hsla(0, 0%, 0%, 0.5) 0 0 15px;}
 #hero .hero-big  { font-size: 70pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; text-shadow: hsla(0, 0%, 0%, 0.2) 0 0 15px;}
 #hero .hero-normal { font-size: 22pt; margin: 15px 0px 40px 0px;  text-shadow: hsla(0, 0%, 0%, 0.8) 0 0 15px;}
+#hero .hero-plus { font-size: 30pt; margin: 15px 0px 40px 0px;  text-shadow: hsla(0, 0%, 0%, 0.8) 0 0 15px;}
 #hero .btn-3d { padding: 10px 27px 10px 17px; margin:0px 25px 0px 0px;}
 #hero .facebook {background-color: #1876f2; border: 1px solid #fff; color: #fff;}
 #hero .facebook:hover {background-color: #fff; border: 1px solid #fff; color: #1876f2;}
