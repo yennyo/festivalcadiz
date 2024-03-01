@@ -11,7 +11,7 @@
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
     <meta name="msapplication-TileColor" content="#000000" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#111111" />
 
     <meta property="og:title" content="Sensual Week" />
     <meta property="og:url" content="https://www.sensualweek.com/" />
@@ -21,7 +21,7 @@
     />
     <meta
       property="og:description"
-      content="An unforgettable week of Bachata Sensual with top dancers from all over the world. From 26 to 31 August 2024."
+      content="Two unforgettable weeks of Bachata Sensual with top dancers from all over the world."
     />
     <meta property="og:type" content="website" />
 
@@ -86,18 +86,6 @@
 
     <!-- Hero Section -->
     <section id="hero" class="light">
-      <video
-        class="transition fading"
-        muted
-        autoplay
-        playsinline
-        onloadedmetadata="this.muted = true"
-        oncanplay="playVideo(this)"
-        onended="playVideo(this)"
-        width="1920"
-      >
-        <source src="assets/vid/cadiz-night.mp4" />
-      </video>
       <div class="container">
         <div class="home-bg">
           <div class="hero-content text-center">
@@ -107,6 +95,7 @@
               height="142.08046"
               version="1.0"
               viewBox="0 0 254.19768 106.56034"
+              style="max-width: 600px"
             >
               <path
                 fill="#fff"
@@ -134,465 +123,47 @@
             </svg>
 
             <div class="hero-normal">
-              An unforgettable week of Bachata Sensual with top dancers from all
-              over the world. From 26 to 31 August 2024.
+              Due to the incredible amount of interest, we're organising
+              <b>two editions</b> of Sensual Week this year — one in July, and
+              one in August 2024!
             </div>
 
-            <ul class="navigation-bar">
-              <li>
-                <a
-                  href="https://forms.gle/1zsa3dSBhB6pUWYy5"
-                  class="btn btn-lg btn-3d"
-                  onclick="fathom.trackGoal('BY3DBBXD', 0);"
-                  target="_blank"
-                >
-                  <span style="font-weight: normal">Waiting List</span>
-                </a>
-              </li>
-            </ul>
+            <div class="row">
+              <div
+                class="col-md-6 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2"
+                data-animation="fadeInLeft"
+                data-delay="0"
+                style="padding-bottom: 30px"
+              >
+                <a href="july/" onclick="fathom.trackEvent('july click');"
+                  ><span>July edition</span
+                  ><img
+                    src="assets/img/cadiz-day-poster.jpg"
+                    class="img-responsive"
+                    alt="July edition"
+                    title="July 2024 edition"
+                /></a>
+              </div>
+              <div
+                class="col-md-6 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2"
+                data-animation="fadeInRight"
+                data-delay="100"
+              >
+                <a href="august/" onclick="fathom.trackEvent('august click');"
+                  ><span>August edition</span
+                  ><img
+                    src="assets/img/cadiz-night-poster.jpg"
+                    class="img-responsive"
+                    alt="August edition"
+                    title="August 2024 edition"
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- End Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="section dark">
-      <div class="container">
-        <article
-          class="article-big animated hiding"
-          data-animation="fadeInUp"
-          data-delay="0"
-        >
-          <div class="icon-wrap"></div>
-          <h3>The Sensual Week experience</h3>
-          <p class="h7">
-            We are pleased to announce the
-            <b>10th anniversary edition of Sensual Week</b> in Cádiz! You can
-            look forward to one week of <b>quality dance training</b> in small
-            groups in the city where Bachata Sensual was born, right in the
-            historical centre, and just steps away from La Caleta, Cádiz's
-            famous beach.
-          </p>
-
-          <p class="h7">
-            Every track consist of 10 hours of Bachata Sensual workshops; a show
-            team track and various styling tracks will also be available.
-            Workshops will be held at
-            <b>Hotel Parador de Cádiz</b> and every evening, there will be
-            unforgettable parties with the best DJs in different venues.
-          </p>
-        </article>
-      </div>
-    </section>
-    <!-- End About Section -->
-
-    <!-- Schedule Section -->
-    <!--
-    <section id="schedule" class="section light">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <article
-            class="article-big animated hiding"
-            data-animation="fadeInUp"
-            data-delay="0"
-          >
-            <h3>Workshop schedule</h3>
-            <p class="h7">
-              The workshops will be in Hotel Parador de Cádiz: in order to
-              ensure a quality event, a limited number of participants are
-              allowed per track. There will be bus transportation to and from
-              the parties. More details will be provided in due course.
-            </p>
-            <div
-              class="col-md-12 col-sm-12 col-xs-12 animated hiding"
-              data-animation="fadeInUp"
-              data-delay="100"
-            >
-              <a href="assets/img/schedule-20230819.png"
-                ><img
-                  src="assets/img/schedule-20230819.png"
-                  class="img-responsive"
-                  alt="workshops schedule"
-                  style="
-                    box-shadow: hsla(0, 0%, 0%, 0.5) 0 0 20px;
-                    margin-bottom: 30px;
-                  "
-              /></a>
-            </div>
-            <div class="clearfix"></div>
-            <p>
-              Note that the schedule may be subject to change due to unforeseen
-              circumstances.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-    -->
-    <!-- End Schedule Section -->
-
-    <!-- Application Process Section -->
-    <section id="application" class="section light">
-      <div class="container">
-        <article
-          class="article-big animated hiding"
-          data-animation="fadeInUp"
-          data-delay="0"
-        >
-          <h3>The application process</h3>
-          <p class="h7">
-            You can apply by filling out the form and
-            <b>submitting a video</b> of yourself dancing a Bachata Sensual
-            improvisation with a partner. The application opens on
-            <b
-              ><a
-                href="https://www.inyourowntime.zone/2023-03-10_00.00_Europe.Madrid"
-                >Thursday, 8 February 2024 at 22:00 CET</a
-              ></b
-            >
-            (Cádiz time)!
-          </p>
-          <p class="h7">
-            Sensual Week teachers will evaluate your application, and you will
-            be <b>contacted by email</b> with a link to purchase a pass for the
-            track that we think is best suited for you to grow as a dancer.
-            Passes typically sell out fast, so make sure to purchase your pass
-            right away when we contact you.
-          </p>
-          <p class="h7"><b>Things to keep in mind:</b></p>
-          <ul class="h7">
-            <li>make sure your video is at least 60 seconds long</li>
-            <li>
-              it should be an improvisation with leading and following, not a
-              choreography
-            </li>
-            <li>
-              we only accept links from YouTube, Instagram, Google Drive,
-              OneDrive, Dropbox
-            </li>
-            <li>
-              make sure the video is publicly accessible and does not expire
-            </li>
-            <li>we don’t accept videos with Sensual Week teachers</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-    <!-- End Application Process Section -->
-
-    <!-- Hotel Section -->
-    <section id="hotel" class="section light">
-      <div class="overlay"></div>
-      <div class="container">
-        <article
-          class="article-big animated hiding"
-          data-animation="fadeInUp"
-          data-delay="0"
-        >
-          <h3>Location</h3>
-          <p class="h7">
-            Just like last year, classes will be held in the beautiful
-            <b
-              ><a href="https://goo.gl/maps/iCEE3uyKWtJuNNNw8"
-                >Hotel Parador de Cádiz</a
-              ></b
-            >
-            in the historical centre, and parties will take place in prime
-            locations around Cádiz.
-          </p>
-          <p class="h7">
-            We recommend looking for accommodation in the historical centre:
-            there are plenty of hotels and Airbnbs available, and everything is
-            within walking distance.
-          </p>
-        </article>
-      </div>
-    </section>
-    <!-- End Hotel Section -->
-
-    <!-- Artists Section -->
-    <section id="artists" class="section light">
-      <div class="container">
-        <article
-          class="article-big animated hiding"
-          data-animation="fadeInUp"
-          data-delay="0"
-        >
-          <h3>Top international artists</h3>
-          <br />
-          <br />
-          <section class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="0"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/korkejudith2.jpg"
-                    class="img-responsive img-circle"
-                    alt="Judith and Korke"
-                  />
-                </div>
-                <div class="name">Judith&nbsp;&amp;&nbsp;Korke</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-            <!-- <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="100"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/.jpg"
-                    class="img-responsive img-circle"
-                    alt=""
-                  />
-                </div>
-                <div class="name"></div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div> -->
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="100"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/pabloraquel2.jpg"
-                    class="img-responsive img-circle"
-                    alt="Raquel and Pablo"
-                  />
-                </div>
-                <div class="name">Raquel&nbsp;&amp;&nbsp;Pablo</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="200"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/gloriaigor.jpg"
-                    class="img-responsive img-circle"
-                    alt="Gloria and Igor"
-                  />
-                </div>
-                <div class="name">Gloria&nbsp;&amp;&nbsp;Igor</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="400"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/berranazaret.jpg"
-                    class="img-responsive img-circle"
-                    alt="Nazaret and Berra"
-                  />
-                </div>
-                <div class="name">Nazaret&nbsp;&amp;&nbsp;Berra</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-          </section>
-          <section class="row">
-            <!-- <div class="clearfix visible-xs"></div> -->
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="100"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/irenetomas.jpg"
-                    class="img-responsive img-circle"
-                    alt="Irene and Tomas"
-                  />
-                </div>
-                <div class="name">Irene&nbsp;&amp;&nbsp;Tomas</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="200"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/ouzinariella.jpg"
-                    class="img-responsive img-circle"
-                    alt="Ariella and Ouzin"
-                  />
-                </div>
-                <div class="name">Ariella&nbsp;&amp;&nbsp;Ouzin</div>
-                <div class="sub">Show team</div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="300"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/carlospamela2.jpg"
-                    class="img-responsive img-circle"
-                    alt="Pamela and Carlos"
-                  />
-                </div>
-                <div class="name">Pamela&nbsp;&amp;&nbsp;Carlos</div>
-                <div class="sub">Bachata Sensual</div>
-              </div>
-            </div>
-          </section>
-          <section class="row">
-            <!-- <div class="clearfix visible-xs"></div> -->
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="0"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/evelyn.jpg"
-                    class="img-responsive img-circle"
-                    alt="Carolina"
-                  />
-                </div>
-                <div class="name">Évelyn Viana Lovera</div>
-                <div class="sub">Bachata Dominicana</div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-              <div
-                class="speaker-item animated hiding"
-                data-animation="fadeInUp"
-                data-delay="100"
-              >
-                <div class="img-wrapper">
-                  <img
-                    src="assets/img/teacher/carolina2.jpg"
-                    class="img-responsive img-circle"
-                    alt="Carolina Rosa"
-                  />
-                </div>
-                <div class="name">Carolina Rosa</div>
-                <div class="sub">Bachata Dominicana</div>
-              </div>
-            </div>
-          </section>
-        </article>
-      </div>
-    </section>
-    <!-- End Artists Section -->
-
-    <!-- Organizers Section -->
-    <section id="organizers" class="section light">
-      <div class="overlay"></div>
-      <div class="container">
-        <article
-          class="article-big animated hiding"
-          data-animation="fadeInUp"
-          data-delay="0"
-        >
-          <h3>Organisers</h3>
-          <p class="h7">
-            This unique festival is brought to you by
-            <b
-              >Judith &amp; Korke from Spain, and Yenny &amp; Andreas from the
-              UK</b
-            >.
-          </p>
-          <p class="h7">
-            Over the last decade, they have carefully finetuned the festival's
-            formula to provide all participants with a quality dance event that
-            is unique in the world.
-          </p>
-        </article>
-      </div>
-    </section>
-    <!-- End Organizers Section -->
-
-    <!-- Price Section -->
-    <!--<section id="tickets" class="section dark">
-      <div class="container">
-        <h3>Tickets</h3>
-
-        <div
-          class="pricing-col animated hiding"
-          data-animation="fadeInLeft"
-          data-delay="0"
-        >
-          <div class="pricing-col-header">
-            <h4 class="pricing-col-header-title">xx € per participant</h4>
-          </div>
-          <div class="pricing-col-content">
-            <ul>
-              <li>
-                10 hours of tailored Bachata Sensual workshops (maximum 30
-                couples per track)
-              </li>
-              <li>Opening gala</li>
-              <li>Six nights of top social dancing</li>
-              <li>Visit to an authentic Peña Flamenca</li>
-              <li>Bus transportation to parties outside of Cádiz</li>
-              <li>
-                Option to participate in the Show Team Track (free / subject to
-                availability)
-              </li>
-              <li>
-                Option to purchase additional Styling and Dominican Track
-                tickets (subject to availability)
-              </li>
-            </ul>
-          </div>
-          <p class="h7">
-            <b
-              ><a href="#hero">Submit</a> your video application on
-              <a
-                href="https://www.inyourowntime.zone/2023-03-10_00.00_Europe.Madrid"
-                >March 10, 00:00 CET</a
-              >
-              (Cádiz time)!</b
-            >
-          </p>
-        </div>
-      </div>
-    </section>-->
-    <!-- End Price Section -->
-
-    <footer id="footer">
-      <div class="container">
-        <p>
-          &copy; 2024 Sensual Week |
-          <a href="privacy.html">Privacy policy</a> |
-          <a href="https://www.instagram.com/sensualweekcadiz/">Instagram</a> |
-          <a href="https://www.facebook.com/profile.php?id=100063717333728"
-            >Facebook</a
-          >
-        </p>
-      </div>
-    </footer>
 
     <script
       type="text/javascript"
