@@ -446,8 +446,8 @@ footer .container p {
   display: inline-block;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  border: 1px solid #ffffff33;
-  background-color: #fff3;
+  border: 1px solid #00000033;
+  background-color: #0005;
   max-width: 860px;
   font-weight: 300;
   -webkit-backdrop-filter: blur(3px);
@@ -468,6 +468,36 @@ footer .container p {
 #hero .hero-normal a {
   color: #fff;
 }
+
+.myButton {
+  background: linear-gradient(to bottom, #feac75 5%, #f49764 100%);
+  background-color: #feac75;
+  border-radius: 6px;
+  border: 1px solid #fa8e46;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px 27px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #0e0b0877;
+  margin: 15px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #f49764 5%, #feac75 100%);
+  background-color: #f49764;
+  text-decoration: none;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
+.myButton:focus {
+  text-decoration: none;
+}
+
 #hero .btn-3d {
   padding: 10px 27px 10px 17px;
   margin: 0px 25px 0px 0px;
@@ -656,7 +686,7 @@ footer .container p {
 }
 
 #application ul li {
-  list-style-position: inside;
+  /*  list-style-position: inside; */
 }
 
 #hotel {
@@ -1803,4 +1833,11 @@ form {
   background-color: #ddd;
   color: #000;
   font-family: "Roboto", sans-serif;
+}
+
+#arrow {
+  text-decoration: none;
+  font-size: 40px;
+  color: #fffc !important;
+  font-weight: normal;
 }
