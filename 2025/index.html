@@ -60,6 +60,15 @@
         }, (e.duration / e.playbackRate - 0.5) * 1000);
       }
     </script>
+    <style>
+      .transition {
+        transition: all 0.5s;
+      }
+
+      .transition.fading {
+        opacity: 0;
+      }
+    </style>
     <script
       src="https://cdn.usefathom.com/script.js"
       data-site="STFYNMBM"
@@ -84,8 +93,9 @@
         <source src="assets/vid/cadiz-evening.mp4" />
       </video>
       <div class="container">
-        <div class="hero-content text-center">
-          <a href="/">
+        <div class="home-bg">
+          <div class="hero-content text-center">
+            <a href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="338.93024"
@@ -119,17 +129,18 @@
               </svg>
             </a>
 
-          <div class="hero-normal">
-            <span
-              ><b>Sensual Week 2025</b> will take place from 25 to 30
-              August.<br />
-              Applications are now closed, and the ticket sale is finished.</span
-            ><br />
-            <a href="assets/img/schedule-20250824.png" class="myButton"
-              >Schedule</a
-            >
+            <div class="hero-normal">
+              <span
+                ><b>Sensual Week 2025</b> will take place from 25 to 30
+                August.<br />
+                Applications are now closed, and the ticket sale is finished.</span
+              ><br />
+              <a href="assets/img/schedule-20250824.png" class="myButton"
+                >Schedule</a
+              >
+            </div>
+            <div id="arrow">↓</div>
           </div>
-          <div id="arrow">↓</div>
         </div>
       </div>
     </section>
@@ -176,7 +187,9 @@
           data-delay="0"
         >
           <h3>Top international artists</h3>
-          <div class="row">
+          <br />
+          <br />
+          <section class="row">
             <div class="col-md-3 col-sm-3 col-xs-6">
               <div
                 class="speaker-item animated hiding"
@@ -245,8 +258,9 @@
                 <div class="sub">Bachata Sensual</div>
               </div>
             </div>
-          </div>
-          <div class="row">
+          </section>
+          <section class="row">
+            <!-- <div class="clearfix visible-xs"></div> -->
             <div class="col-md-3 col-sm-3 col-xs-6">
               <div
                 class="speaker-item animated hiding"
@@ -316,9 +330,9 @@
                 </div>
                 <div class="sub">Bachata Dominicana</div>
               </div>
-            </div>
-          </div>
-          <div class="row">
+            </section>
+            <section class="row">
+              <!-- <div class="clearfix visible-xs"></div> -->
               <div class="col-md-3 col-sm-3 col-xs-6">
                 <div
                   class="speaker-item animated hiding"
@@ -371,7 +385,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </article>
       </div>
     </section>
